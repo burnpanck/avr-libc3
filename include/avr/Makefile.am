@@ -73,3 +73,5 @@ version.h: version.h.in $(top_builddir)/config.h
 	$(do_subst) < $(srcdir)/version.h.in > version.h
 
 CLEANFILES = version.h
+
+SUBDIRS = legacyio
